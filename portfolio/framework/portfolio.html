@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>Portfolio Page</title>
+    
+    <link rel="stylesheet" href="css/main2.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="jquery-3.1.1.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row" id="row1">
+            <div class="col-md-2">
+                <img src="file:///home/thabani/Desktop/portfolio/framework/images/udacity-logo.jpg" alt="udacity-logo">
+            </div>
+           <div class="col-md-10 text-right">
+              <h1>JANE DOETTE</h1>
+              <h3>FRONT END NINJA</h3>
+           </div>
+            <div class="col-md-12">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12"><img class="img-responsive" src="file:///home/thabani/Desktop/portfolio/framework/images/images.jpg" alt="html-code">
+            </div>
+        </div>
+
+        <div class="row">
+        <h2 class="col-md-12">Featured Work</h2>
+        </div>
+
+        <div class="row text-center">
+            <div class="col-md-4">
+              <img class="img-responsive" src="file:///home/thabani/Desktop/portfolio/framework/images/images%20(1).jpg" alt="app" data-toggle="modal" data-target="#image1">
+                <h4 class="text-center">Appify</h4>
+                <a href="https://github.com/udacity/Appify/">
+                    https://github.com/udacity/Appify/
+                </a>  <!-- a tag content not showing up in html for some reason -->
+          </div>
+            <div class="col-md-4" >
+                <img class="img-responsive" src="file:///home/thabani/Desktop/portfolio/framework/images/sunflower.jpg" alt="sunflower" data-toggle="modal" data-target="#image2">
+                <h4 class="text-center">Sunflower</h4>
+                <a href="https://github.com/udacity/Sunflower/">https://github.com/udacity/Sunflower/</a>
+            </div>
+            <div class="col-md-4">
+                <img class="img-responsive" src="file:///home/thabani/Desktop/portfolio/framework/images/bokeh.jpg" alt="bright-spots-on-cam-lense-with-tree-and-sky-background" data-toggle="modal" data-target="#image3">
+                <h4>Bokeh</h4>
+                <a href="https://github.com/udacity/Bokeh/" >https://github.com/udacity/Bokeh/</a>  
+          </div>
+        </div>
+
+  </div>
+  <!-- Trigger the modal with a button -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="image1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel0" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel0">Favorite App Page</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="file:///home/thabani/Desktop/portfolio/framework/images/images%20(1).jpg" alt="app" >
+                    This was my first project in this class. I learned a lot about HTML and CSS.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="image2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel1">Favorite App Page</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="file:///home/thabani/Desktop/portfolio/framework/images/sunflower.jpg"  alt="sunflower">
+                    This was my first project in this class. I learned a lot about HTML and CSS.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="image3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel2">Favorite App Page</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="file:///home/thabani/Desktop/portfolio/framework/images/bokeh.jpg" alt="bright-spots-on-cam-lense-with-tree-and-sky-background">
+                    This was my first project in this class. I learned a lot about HTML and CSS.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

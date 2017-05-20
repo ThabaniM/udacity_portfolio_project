@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Portfolio Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="css/main2.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="jquery-3.1.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body class="body-class">
+    <div class="container-fluid">
+        <header class="row text-right text-uppercase" id="row1">
+            <div class="col-xs-6 col-md-4"><img src="images/udacity-blue-logo.png" alt="udacity logo blue">
+            </div>
+                <div class="col-xs-6 col-md-8">
+                  <h1>Thabani Manzini</h1>
+                  <h3 id="topH3">Front End Wizard</h3>
+
+               </div>
+              
+                  
+        
+        </header>
+   
+        <div class="row">
+            <div class="col-md-12"><img class="img-responsive pull-left" src="images/images.jpg" alt="html-code">
+            </div>
+        </div>
+
+        <div class="row">
+            <h2 class="col-md-12" id="featured">Featured Work</h2>
+        </div>
+
+        <div class="row text-center past-work">
+            <div class="col-xs-4 col-sm-4 col-md-4"> 
+              <img class="img-responsive" src="images/quote-machine.jpg"  alt="quote-machine" data-toggle="modal" data-target="#image1">
+                <h4 class="text-center">Quote Machine</h4>
+              <!--  <a href="http://codepen.io/ThabaniM/full/obXePa/" class="hidden-sm hidden-xss">
+                  http://codepen.io/ThabaniM/full/obXePa/
+                </a>  -->
+          </div>
+            <div class="col-xs-4 col-md-4" >
+                <img class="img-responsive" src="images/simon-game.jpg"  alt="simon-game" data-toggle="modal" data-target="#image2">
+                <h4 class="text-center">Simon Game</h4>
+               <!-- <a href="http://codepen.io/ThabaniM/full/yOggQE" class="hidden-sm hidden-xs">http://codepen.io/ThabaniM/full/yOggQE/</a> -->
+            </div>
+            <div class="col-xs-4 col-md-4">
+                <img class="img-responsive" src="images/calculator.jpg"  alt="calculator" data-toggle="modal" data-target="#image3">
+                <h4>Calculator</h4>
+                <!--  <a href="http://codepen.io/ThabaniM/full/dGzvJZ/" class="hidden-sm hidden-xs" >http://codepen.io/ThabaniM/full/dGzvJZ/</a> -->  
+            </div>
+        </div>
+
+    </div>
+  <!-- Trigger the modal with a button -->
+
+
+    <!-- Modal -->
+    <div class="modal fade text-center" id="image1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel0" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel0">Featured App Page</h4>
+                </div>
+                <div class="modal-body">  <!-- bottom images are of low quality so i have decided to keep 3 columns in the featured work section -->
+                    <img class="img-responsive" src="images/quote-machine.jpg"  alt="quote-machine" >
+                      <p>Generates random quotes from each button press</p>
+                       <a href="http://codepen.io/ThabaniM/full/obXePa/">
+                  http://codepen.io/ThabaniM/full/obXePa/</a>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade text-center" id="image2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel1">Featured App Page</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/simon-game.jpg"   alt="simon-game">
+                   <p>Simon says this is an awesome childrens game</p>
+                   <a href="http://codepen.io/ThabaniM/full/yOggQE">http://codepen.io/ThabaniM/full/yOggQE/</a>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade text-center" id="image3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel2">Featured App Page</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/calculator.jpg"  alt="calculator">
+                    <p> A simple non-scientific version </p>
+                    <a href="http://codepen.io/ThabaniM/full/dGzvJZ/">http://codepen.io/ThabaniM/full/dGzvJZ/</a> 
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

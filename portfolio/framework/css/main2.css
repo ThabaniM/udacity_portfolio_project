@@ -1,0 +1,137 @@
+
+
+body.body-class {
+    margin: 0 auto;
+    padding: 0;
+    color: #BCBBBB;
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+#row1 h1 {
+  font-size: 2.2em;
+}
+#topH3 {
+    font-size: 1.5em;
+}
+
+#row1 {
+    position: relative;
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+
+#row1::before {
+    content: ' ';
+    background: grey;
+    height: 2px;
+    width: calc(100% - 30px);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+   /*padding: 10px 0px;*/
+}
+
+img {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+   
+}
+
+img[alt="udacity logo blue"] {
+    margin-bottom: 5px;
+    margin-left: 0;
+    margin-top: 25px;
+
+    width: 50%;
+
+}
+
+
+.container-fluid {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 50%;
+    padding: 0;
+    color:  #404040;
+
+}
+
+.container-fluid a {
+    color: grey;
+    font-size: 0.8em;
+}
+
+.past-work {
+    margin-top: 10px;
+}
+
+.modal{
+    color: black;
+}
+
+.modal img {
+
+    width: 25%;
+
+   
+}
+
+.modal p {
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+    body.body-class{
+        font-size: 12px;
+       
+    }
+    .container-fluid{
+        width: 80%;
+    }
+     
+    img[alt="udacity logo blue"] {
+   
+    width: 30%;
+
+
+   } 
+   
+    
+}
+
+@media only screen and (max-width: 991px) {
+
+    body .body-class {
+
+
+
+    }
+
+    h2 #feature{
+       font-size: 0.8em;
+    }
+
+    #topH3{
+       font-size: 0.9em; 
+      
+
+    }
+
+   .past-work h4{
+       font-size: 0.95em;
+   }
+
+}
